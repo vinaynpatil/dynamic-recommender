@@ -1,5 +1,3 @@
-# Idea #
-
 RealTime Dynamic Video clips Recommendation using sentimental Analysis.
 
 Current systems in place are static and generic in nature and don’t take into consideration the ever changing human behavior and 
