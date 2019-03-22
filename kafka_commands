@@ -1,0 +1,15 @@
+
+https://dzone.com/articles/running-apache-kafka-on-windows-os
+
+1. Start Zookeeper
+	command: zkserver
+
+2. Start Kafka Server
+	command:  .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+3. Create a topic 
+	command: kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topic_name
+
+
+4. Start consumer via console
+	command: kafka-console-consumer.bat --bootstrap-server localhost:9092 --from-beginning --topic topic_name 
